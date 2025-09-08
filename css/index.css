@@ -3,11 +3,32 @@
 body{
     background-color: plum;
 } 
-#photo-container{
-    
-    
+h1{
+  display: block;
 }
+img{
+    margin-bottom: 100px;
+    float: right;
+    display: block;
+}
+   
 flex-container{
     display: flex;
-    
+    flex-wrap: wrap;
 }
+.signature{
+   text-align: right;
+   font-family:cursive;
+   font-size: 20px;
+   
+}
+@media screen and (min-width: 992px){
+    body{
+        background-color:yellowgreen;
+        font-size: x-large;
+    }       
+    img{
+        width: 300px;
+        height: 300px;
+        
+    }
