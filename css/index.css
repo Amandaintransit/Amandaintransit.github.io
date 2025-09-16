@@ -1,7 +1,7 @@
 
 
 body{
-    background-color: plum;
+    //background-color: plum;
 } 
 h1{
   display: block;
@@ -15,6 +15,7 @@ img{
 flex-container{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 150px;
 }
 .signature{
    text-align: right;
@@ -24,7 +25,7 @@ flex-container{
 }
 @media screen and (min-width: 992px){
     body{
-        background-color:yellowgreen;
+        //background-color:yellowgreen;
         font-size: x-large;
     }       
     img{
