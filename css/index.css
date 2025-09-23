@@ -1,8 +1,7 @@
 
 
-body{
-    //background-color: plum;
-} 
+
+
 h1{
   display: block;
 }
@@ -25,7 +24,7 @@ flex-container{
 }
 @media screen and (min-width: 992px){
     body{
-        //background-color:yellowgreen;
+        /*background-color:yellowgreen;*/
         font-size: x-large;
     }       
     img{
@@ -33,3 +32,4 @@ flex-container{
         height: 300px;
         
     }
+}
